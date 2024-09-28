@@ -1,0 +1,7 @@
+DynamicArrayTest.ConstructorSizeAndValue 1 0.00676304
+DynamicArrayTest.CopyConstructor 1 0.00305196
+DynamicArrayTest.MoveConstructor 1 0.00327642
+DynamicArrayTest.MoveAssignmentOperator 1 0.00275929
+DynamicArrayTest.SubscriptOperator 1 0.00375887
+DynamicArrayTest.AdditionOperator 1 0.00263558
+---

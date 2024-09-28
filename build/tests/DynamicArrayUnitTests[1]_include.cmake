@@ -1,0 +1,5 @@
+if(EXISTS "/Users/annashats/Desktop/homework/oop_hwk/DynamicArray/build/tests/DynamicArrayUnitTests[1]_tests.cmake")
+  include("/Users/annashats/Desktop/homework/oop_hwk/DynamicArray/build/tests/DynamicArrayUnitTests[1]_tests.cmake")
+else()
+  add_test(DynamicArrayUnitTests_NOT_BUILT DynamicArrayUnitTests_NOT_BUILT)
+endif()

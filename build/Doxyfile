@@ -1,0 +1,50 @@
+# Doxyfile 1.9.6
+
+# Project-related settings
+PROJECT_NAME           = "DynamicArray"
+PROJECT_BRIEF          = "Dynamic Array implementation "
+PROJECT_NUMBER         = "1.0"
+
+# Output settings
+OUTPUT_DIRECTORY       = docs
+GENERATE_LATEX         = NO
+GENERATE_HTML          = YES
+GENERATE_XML           = NO
+
+# Input settings
+INPUT                  = include src tests 
+RECURSIVE              = YES
+
+# File patterns
+FILE_PATTERNS          = *.h *.hpp *.cpp *.cxx *.cc *.c *.dox *.md
+
+# EXTRACT_ALL
+EXTRACT_ALL            = YES
+
+# EXTRACT_PRIVATE
+EXTRACT_PRIVATE        = NO
+
+# EXTRACT_STATIC
+EXTRACT_STATIC         = NO
+
+# EXTRACT_LOCAL_CLASSES
+EXTRACT_LOCAL_CLASSES  = NO
+
+# GENERATE_TREEVIEW
+GENERATE_TREEVIEW      = YES
+
+# GENERATE_AUTOMATIC_RELATIONS
+GENERATE_AUTOMATIC_RELATIONS = YES
+
+# ENABLE_PREPROCESSING
+ENABLE_PREPROCESSING   = YES
+MACRO_EXPANSION        = YES
+
+# Source Browser
+SOURCE_BROWSER         = YES
+INLINE_SOURCES         = YES
+
+
+# Additional settings
+GENERATE_DOCSET        = NO
+
