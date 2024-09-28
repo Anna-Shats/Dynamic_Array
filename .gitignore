@@ -1,0 +1,86 @@
+# =====================
+# IDE and Editor Files
+# =====================
+
+# Visual Studio Code
+.vscode/
+
+# CLion
+.idea/
+
+# Eclipse
+.settings/
+.cproject
+.project
+
+# =====================
+# OS Generated Files
+# =====================
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# =====================
+# Build Artifacts
+# =====================
+
+# Build directories
+/build/
+/build-*/
+
+# CMake files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# =====================
+# Documentation Output
+# =====================
+
+# Doxygen generated documentation
+docs/html/
+
+# =====================
+# Temporary and Backup Files
+# =====================
+
+*~
+*.swp
+*.tmp
+*.bak
+*.log
+
+# =====================
+# Compiled Object Files
+# =====================
+
+*.o
+*.obj
+*.lo
+*.slo
+*.dll
+*.so
+*.dylib
+*.exe
+*.out
+*.app
+
+# =====================
+# Dependency Directories
+# =====================
+
+# Google Test
+googletest/build/
+googletest/include/gtest/*.h
+googletest/include/gtest/*.hpp
+googletest/include/gtest/*.inl
+
+# =====================
+# Others
+# =====================
+
+# Ignore any other directories or files you don't want to track
